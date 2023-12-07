@@ -1,0 +1,24 @@
+/*items using the flex display*/
+.header {
+    display: flex;
+}
+
+/*all links formatting*/
+a {
+    text-decoration: none; /*all links with no visible bar*/
+}
+
+/*body formating*/
+body {
+    margin: 8px 150px; /*body content with extra margin on sides*/
+}
+
+/*header formating*/
+.header {
+    gap: 10px; /*distance between the header links*/
+}
+
+/*header logo formating*/
+.header_logo {
+    margin-right: auto; /*separate the header links from the logo*/
+}
