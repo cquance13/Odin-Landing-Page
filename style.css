@@ -1,24 +1,130 @@
-/*items using the flex display*/
-.header {
-    display: flex;
-}
-
 /*all links formatting*/
 a {
     text-decoration: none; /*all links with no visible bar*/
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /*body formating*/
 body {
-    margin: 8px 150px; /*body content with extra margin on sides*/
+    margin: 0;
 }
 
 /*header formating*/
 .header {
+    display: flex;
     gap: 10px; /*distance between the header links*/
+    padding: 10px 0 0 0;
 }
 
 /*header logo formating*/
 .header_logo {
     margin-right: auto; /*separate the header links from the logo*/
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+/*Nothing to see here picture formatting*/
+.nothing_pic {
+    height: 300px;
+    width: auto;
+    margin: 20px 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_left {
+    max-width: 400px;
+}
+
+.top_third {
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.website_explanation {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.info_header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 40px 0;
+}
+
+.info_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mid_upper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px;
+    min-height: 500px;
+}
+
+.blue_box {
+    border: solid 4px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.box_txt {
+    width:150px;
+    text-align: center;
+    font-size: 18px;
+    color: slategray;
+    margin: 8px 0;
+}
+
+.mid_lower {
+    background-color: #E5E7EB;
+    min-height: 400px;
+    padding: 0 200px;
+}
+
+.quote_box {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote_atribute {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
 }
