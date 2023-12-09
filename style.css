@@ -42,11 +42,12 @@ body {
     align-items: center;
     padding: 100px 0;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .top_left {
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top_third {
@@ -66,6 +67,7 @@ body {
     border: none;
     border-radius: 5px;
     margin-top: 5px;
+    max-width: 100px;
 }
 
 .info_header {
